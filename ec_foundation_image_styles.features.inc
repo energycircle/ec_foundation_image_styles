@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ec_image_styles.features.inc
+ * ec_foundation_image_styles.features.inc
  */
 
 /**
  * Implements hook_image_default_styles().
  */
-function ec_image_styles_image_default_styles() {
+function ec_foundation_image_styles_image_default_styles() {
   $styles = array();
 
   // Exported image style: s_140.

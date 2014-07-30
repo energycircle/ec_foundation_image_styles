@@ -4,4 +4,4 @@
  * Code for the EC-Image-Styles feature.
  */
 
-include_once 'ec_image_styles.features.inc';
+include_once 'ec_foundation_image_styles.features.inc';
