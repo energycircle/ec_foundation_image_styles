@@ -1,4 +1,4 @@
-name = EC-Image-Styles
+name = EC-Foundation-Image-Styles
 description = Basic set of imagecache styles
 core = 7.x
 package = ECFeatures
