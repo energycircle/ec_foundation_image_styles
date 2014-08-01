@@ -152,6 +152,29 @@ function ec_foundation_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: sc_1280x440.
+  $styles['sc_1280x440'] = array(
+    'name' => 'sc_1280x440',
+    'label' => 'sc_1280x440',
+    'effects' => array(
+      24 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1280,
+          'height' => 440,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: sc_140x105.
   $styles['sc_140x105'] = array(
     'name' => 'sc_140x105',
